@@ -2,3 +2,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --white: #ffffff;
+  --off-white: #f2f2f2;
+  --new-n-grey: #d9d9d9;
+  --orange: #fab12f;
+  --gold: #fa812f;
+  --green: #448a13;
+  --dark-gray: #2a2a2a;
+  --new-n-black: #222831;
+  --text-color: #2a2a2a;
+  --new-n-text-color: #393e46;
+  --black: #000000;
+  /* Fonts */
+  --poppins-font-family: 'Poppins-Regular', sans-serif
+  /* Effects */
+
+}
+
+body {
+    font-family: var(--poppins-font-family);
+}
+
+.hmm{
+    font-family: var(--poppins-font-family);
+}
